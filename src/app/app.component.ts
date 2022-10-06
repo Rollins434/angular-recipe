@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'recipe';
+  loadedFeature = 'recipe'
+
+  onNavSelected(feature:string){
+this.loadedFeature = feature;
+  }
 }
