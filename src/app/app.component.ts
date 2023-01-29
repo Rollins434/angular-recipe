@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'recipe';
   loadedFeature = 'recipe'
 
-  onNavSelected(feature:string){
-this.loadedFeature = feature;
-  }
+//   onNavSelected(feature:string){
+// this.loadedFeature = feature;
+//   }
 }
